@@ -1,7 +1,7 @@
 ﻿using Problems.ChatGPT.GPT0001MaxOfArray;
 
 namespace Problems.Tests.ChatGPT;
-
+[Trait("Kata", "GPT0001")]
 public class GPT0001MaxOfArrayTests
 {
     [Fact]
