@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems.Tests", "tests\Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "src\Playground\Playground.csproj", "{E9145509-2CDE-4D7C-947A-0D6CEA4B9DD5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,5 +70,8 @@ Global
 		{99C46801-2559-4F9C-8BB1-66607D1BC296} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{574D188E-BBD1-488A-BFEA-BB325364C4CC} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{E9145509-2CDE-4D7C-947A-0D6CEA4B9DD5} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {760E656A-F63C-4074-8912-3F04B30D0A4A}
 	EndGlobalSection
 EndGlobal
