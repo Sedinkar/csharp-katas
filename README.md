@@ -1,1 +1,1 @@
-# csharp-katas
+C# Katas
