@@ -1,4 +1,4 @@
-﻿namespace Problems.ChatGPT.GPT0001MaxOfArray;
+﻿namespace Problems.ChatGPT.GPT0001.MaxOfArray;
 
 public static class Solution
 {

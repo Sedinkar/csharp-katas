@@ -1,8 +1,8 @@
-﻿using Problems.ChatGPT.GPT0001MaxOfArray;
+﻿using Problems.ChatGPT.GPT0001.MaxOfArray;
 
 namespace Problems.Tests.ChatGPT;
 [Trait("Kata", "GPT0001")]
-public class GPT0001MaxOfArrayTests
+public class GPT0001SolutionTests
 {
     [Fact]
     public void SingleElementReturnsThatElement()
