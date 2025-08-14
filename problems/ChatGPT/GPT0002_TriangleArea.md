@@ -3,9 +3,7 @@ code: GPT0002
 title: Triangle Area (Heron)
 difficulty: Easy
 topics: [math, validation]
-status: draft
-date: 2025-08-12
-time_spent: "00:00"
+status: solved
 
 Условие (своими словами):
 Даны три стороны треугольника a, b, c (вещественные числа). Вернуть площадь треугольника по формуле Герона.

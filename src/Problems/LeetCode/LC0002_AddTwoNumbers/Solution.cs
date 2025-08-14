@@ -1,9 +1,10 @@
 ﻿namespace Problems.LeetCode.LC0002.AddTwoNumbers;
 public class ListNode
 {
+#pragma warning disable CA1051
     public int val;
-    public ListNode next;
-    public ListNode(int val = 0, ListNode next = null)
+    public ListNode? next;
+    public ListNode(int val = 0, ListNode? next = null)
     {
         this.val = val;
         this.next = next;
@@ -11,7 +12,7 @@ public class ListNode
 }
 public class Solution
 {
-    public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+    public ListNode? AddTwoNumbers(ListNode? l1, ListNode? l2)
     {
         ListNode dummyHead = new ListNode();
         ListNode tail = dummyHead;

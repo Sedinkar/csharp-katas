@@ -7,7 +7,8 @@ public class GPT0001SolutionTests
     [Fact]
     public void SingleElementReturnsThatElement()
     {
-        var result = Solution.FindMax(new[] { 7 });
+        var test = new[] { 7 };
+        var result = Solution.FindMax(test);
         Assert.Equal(7, result);
     }
 

@@ -4,8 +4,6 @@ title: Max Of Array
 difficulty: Easy
 topics: [array, scanning]
 status: solved
-date: 2025-08-12
-time_spent: "00:33"
 
 Условие (своими словами):
 Дан массив целых чисел длиной ≥ 1. Вернуть максимальный элемент массива.

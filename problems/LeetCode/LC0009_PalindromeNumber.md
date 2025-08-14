@@ -3,7 +3,7 @@ code: LC0009
 title: Palindrome Number
 difficulty: Easy
 topics: [math, two-pointers]
-goals: [работа с делением/остатком]
+status: solved
 
 Условие (своими словами):
 Дан целый x. Вернуть true, если десятичная запись x читается одинаково слева направо и справа налево.
