@@ -1,45 +1,21 @@
-﻿/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     public int val;
- *     public ListNode next;
- *     public ListNode(int val=0, ListNode next=null) {
- *         this.val = val;
- *         this.next = next;
- *     }
- * }
- */
-namespace Problems.LeetCode.LC0001.AddTwoNumbers;
-public class ListNode
-{
-    public int val;
-    public ListNode next;
-    public ListNode(int val = 0, ListNode next = null)
-    {
-        this.val = val;
-        this.next = next;
-    }
-}
+﻿namespace Problems.LeetCode.LC0001.TwoSum;
 public class Solution
 {
-    public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+    public int[] TwoSum(int[] nums, int target)
     {
-        ListNode dummyHead = new ListNode();
-        ListNode tail = dummyHead;
-        int carry = 0;
-        while (l1 != null || l2 != null || carry > 0)
+        int[] result = new int[2];
+        for (int i = 0; i < nums.Length; i++)
         {
-            int x = l1 != null ? l1.val : 0;
-            int y = l2 != null ? l2.val : 0;
-            int sum = x + y + carry;
-            carry = sum / 10;
-            ListNode temp = new ListNode();
-            tail.next = temp;
-            temp.val = sum % 10;
-            tail = tail.next;
-            l1 = l1 != null ? l1.next : null;
-            l2 = l2 != null ? l2.next : null;
+            for (int j = 0; j < nums.Length; j++)
+            {
+                if (j == i) break;
+                else if (nums[i] + nums[j] == target)
+                {
+                    result[0] = j;
+                    result[1] = i;
+                }
+            }
         }
-        return dummyHead.next;
+        return result;
     }
 }
