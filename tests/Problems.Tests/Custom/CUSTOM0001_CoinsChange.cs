@@ -1,6 +1,6 @@
 using Problems.Custom.CUSTOM0001.CoinsChange;
 
-namespace Problems.Tests.ChatGPT;
+namespace Problems.Tests.Custom;
 [Trait("Kata", "CUSTOM0001")]
 public class CUSTOM0001SolutionTests
 {
@@ -8,7 +8,7 @@ public class CUSTOM0001SolutionTests
     public void SingleElementReturnsThatElement()
     {
         int[] test = new int[] { 1, 5, 10 };
-        var result = Solution.CoinsChange(test,0);
+        var result = Solution.CoinsChange(test, 0);
         Assert.Equal("No change", result);
     }
 
