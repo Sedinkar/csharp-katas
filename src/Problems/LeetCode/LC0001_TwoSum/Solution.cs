@@ -1,7 +1,7 @@
 ﻿namespace Problems.LeetCode.LC0001.TwoSum;
 public class Solution
 {
-    public int[] TwoSum(int[] nums, int target)
+    public static int[] TwoSum(int[] nums, int target)
     {
         int[] result = new int[2];
         for (int i = 0; i < nums.Length; i++)
