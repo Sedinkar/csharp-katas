@@ -5,14 +5,14 @@ namespace Problems.Tests.LeetCode;
 public class LC0001SolutionTests
 {
     [Fact]
-    public void TwoSum_SimpleCase()
+    public void TwoSumSimpleCase()
     {
         var nums = new[] { 2, 7, 11, 15 };
         var target = 9;
 
-        var result = new Solution().TwoSum(nums, target);
-
-        Assert.Equal(new[] { 0, 1 }, result);
+        var result = Solution.TwoSum(nums, target);
+        var expected = new[] { 0, 1 };
+        Assert.Equal(expected, result);
     }
 
     [Theory]
@@ -20,9 +20,9 @@ public class LC0001SolutionTests
     [InlineData(new int[] { 3, 3 }, 6, new int[] { 0, 1 })]
     [InlineData(new int[] { 0, 4, 3, 0 }, 0, new int[] { 0, 3 })]
     [InlineData(new int[] { -3, 4, 3, 90 }, 0, new int[] { 0, 2 })]
-    public void TwoSum_VariousArrays(int[] nums, int target, int[] expected)
+    public void TwoSumVariousArrays(int[] nums, int target, int[] expected)
     {
-        var result = new Solution().TwoSum(nums, target);
+        var result = Solution.TwoSum(nums, target);
         Assert.Equal(expected, result);
     }
 }
